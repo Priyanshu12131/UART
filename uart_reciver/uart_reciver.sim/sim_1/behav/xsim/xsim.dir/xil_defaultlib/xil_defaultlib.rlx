@@ -1,0 +1,25 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/data_sampling.v,1777622083,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/deserializer.v,,data_sampling,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/deserializer.v,1777627873,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/edge_bit_counter.v,,deserializer,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/edge_bit_counter.v,1777616091,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/parity_check.v,,edge_bit_counter,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/parity_check.v,1777616146,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/rx_fsm.v,,parity_check,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/rx_fsm.v,1777627898,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/start_check.v,,rx_fsm,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/start_check.v,1777616124,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/stop_check.v,,start_check,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/stop_check.v,1777616166,verilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/uart_rx.v,,stop_check,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/uart_rx.v,1777622128,verilog,,,,uart_rx,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/list.sv,1777614677,systemVerilog,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_intf.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_top.sv,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_intf.sv,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_common.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_intf.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_tx_item.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_sbd.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_cov.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_mon.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_bfm.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_gen.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_agent.sv;D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_env.sv,$unit_list_sv_2990527908,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_agent.sv,1777613867,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_bfm.sv,1777632447,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_common.sv,1777634321,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_cov.sv,1777613789,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_env.sv,1777614446,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_gen.sv,1777634327,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_intf.sv,1777622672,systemVerilog,,D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_top.sv,,uart_intf,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_mon.sv,1777629493,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_sbd.sv,1777628288,verilog,,,,,,,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_top.sv,1777634325,systemVerilog,,,,top,,uvm,,,,,,
+D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_tx_item.sv,1777632461,verilog,,,,,,,,,,,,
+D:/desktop/proj_file/uart_reciver/uart_reciver.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,

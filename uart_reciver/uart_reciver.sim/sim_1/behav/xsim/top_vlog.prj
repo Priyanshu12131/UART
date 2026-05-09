@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/data_sampling.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/deserializer.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/edge_bit_counter.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/parity_check.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/rx_fsm.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/start_check.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/stop_check.v" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/rtl/uart_rx.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/list.sv" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_intf.sv" \
+"../../../../../../../PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

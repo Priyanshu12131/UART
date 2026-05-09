@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/list.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top

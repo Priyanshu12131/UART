@@ -1,0 +1,62 @@
+Time resolution is 1 ps
+[0] Top: Reset starting
+[150000] Top: Reset released, starting environment
+[150000] Generator: Starting
+[150000] BFM: Starting
+[150000] Monitor: Starting
+[150000] Scoreboard: Starting
+[350000] Generator: Creating transaction for aa
+[350000] Generator: Transaction put in mailbox
+[350000] BFM: Got transaction, driving...
+[990000] Generator: Creating transaction for 55
+[990000] Generator: Transaction put in mailbox
+[1630000] Generator: Creating transaction for cc
+[1630000] Generator: Transaction put in mailbox
+[2270000] Generator: Creating transaction for 33
+[2270000] Generator: Transaction put in mailbox
+[2910000] Generator: Creating transaction for 5d
+[2910000] Generator: Transaction put in mailbox
+[3550000] Generator: Creating transaction for 0f
+[3550000] Generator: Transaction put in mailbox
+[4190000] Generator: Creating transaction for d7
+[4190000] Generator: Transaction put in mailbox
+[18250000] BFM: Got transaction, driving...
+[36250000] BFM: Got transaction, driving...
+[54250000] BFM: Got transaction, driving...
+[72250000] BFM: Got transaction, driving...
+[87150000] Scoreboard: Got transaction
+--------------------------------------------------
+[87150000] ScoreBoard: UART FRAME BREAKDOWN
+  Serial Stream: [START:0] D0:1 D1:0 D2:1 D3:1 D4:1 D5:0 D6:1 D7:0 [STOP:1]
+  Expected Parallel Data: 01011101
+  Received Parallel Data: 00000000
+  STATUS: MISMATCH!
+--------------------------------------------------
+[87150000] SCOREBOARD: MISMATCH! Sent:01011101 Received:00000000
+Error: Received Data wrong from testname : 
+
+[90250000] BFM: Got transaction, driving...
+[107550000] Scoreboard: Got transaction
+--------------------------------------------------
+[107550000] ScoreBoard: UART FRAME BREAKDOWN
+  Serial Stream: [START:0] D0:1 D1:1 D2:1 D3:1 D4:0 D5:0 D6:0 D7:0 [STOP:1]
+  Expected Parallel Data: 00001111
+  Received Parallel Data: 11010111
+  STATUS: MISMATCH!
+--------------------------------------------------
+[107550000] SCOREBOARD: MISMATCH! Sent:00001111 Received:11010111
+Error: Received Data wrong from testname : 
+
+[108250000] BFM: Got transaction, driving...
+[124750000] Scoreboard: Got transaction
+--------------------------------------------------
+[124750000] ScoreBoard: UART FRAME BREAKDOWN
+  Serial Stream: [START:0] D0:1 D1:1 D2:1 D3:0 D4:1 D5:0 D6:1 D7:1 [STOP:1]
+  Expected Parallel Data: 11010111
+  Received Parallel Data: 11111000
+  STATUS: MISMATCH!
+--------------------------------------------------
+[124750000] SCOREBOARD: MISMATCH! Sent:11010111 Received:11111000
+Error: Received Data wrong from testname : 
+
+$finish called at time : 300 us : File "D:/PROJECTVOD_DV/uart_fixed/uart_fixed/UART_RECEIVER/sv_tb/uart_top.sv" Line 30

@@ -1,0 +1,14 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/mux.v,1777320321,verilog,,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/parity_calc.v,,mux,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/parity_calc.v,1777320321,verilog,,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/serializer.v,,parity_calc,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/serializer.v,1777320321,verilog,,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/tx_fsm.v,,serializer,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/tx_fsm.v,1777321885,verilog,,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/uart_tx.v,,tx_fsm,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/uart_tx.v,1777320321,verilog,,,,uart_tx,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_common.sv,1777322769,systemVerilog,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_intf.sv;D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_top.sv,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_env.sv,,$unit_uart_common_sv_1594936514,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_env.sv,1777324405,systemVerilog,,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_intf.sv,,,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_intf.sv,1777322080,systemVerilog,,D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_top.sv,,uart_intf,,uvm,,,,,,
+D:/DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_top.sv,1777324414,systemVerilog,,,,top,,uvm,,,,,,
+D:/desktop/proj_file/UART1/UART1.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,

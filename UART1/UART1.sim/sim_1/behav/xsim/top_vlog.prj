@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_common.sv" \
+
+verilog xil_defaultlib  \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/mux.v" \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/parity_calc.v" \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/serializer.v" \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/tx_fsm.v" \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/rtl/uart_tx.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_env.sv" \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_intf.sv" \
+"../../../../../../../DFTFILES/Uart_Project_with_code/Uart_Project/uart/UART_TRANSMITTER/sv_tb/uart_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
